@@ -575,12 +575,20 @@ pre code {
   }
 }
 .row {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
 }
+.column {
+  width: 12rem;
+  margin-right: 2rem;
+}
 
+.cert-img {
+  width: 100%;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
